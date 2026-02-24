@@ -34,7 +34,8 @@ function makeCounter(initiale) {
         return compte;
       },
       reset: function() {
-        return initiale;
+        compte = initiale
+        return compte;
       }
     }
 }
