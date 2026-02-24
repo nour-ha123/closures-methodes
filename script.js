@@ -41,10 +41,9 @@ function makeCounter(initiale) {
 }
 
 // ex3
+var channelNumber = 0
 function Tv() {
     return {
-      channelNumber: 0,
-      
       watch: function() {
         return "vous regardez maintenant la chaîne #" + channelNumber;
       },
